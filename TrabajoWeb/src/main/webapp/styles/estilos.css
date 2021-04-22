@@ -1,0 +1,88 @@
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Audiowide', cursive;
+}
+
+.cajaPrincipal {
+    position: relative;
+    top: 20px; 
+}
+
+.cajaPrincipal div {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+p {
+   margin-top: 60px; 
+}
+
+.caja1 {
+    background: red;
+    border:  solid 5px black;
+}
+
+.caja2 {
+    background: yellow;
+    border:  solid 5px black;
+}
+
+.caja3 {
+    background: #00BB2D;
+    border:  solid 5px black;
+}
+
+.caja4 {
+    background: orange;
+    border:  solid 5px black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a :hover { 
+    color: white;
+    cursor: pointer;
+}
+
+div:hover { 
+    border:  solid 5px white;
+}
+
+form { 
+    margin: 5%;
+}
+
+.formulario { 
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+form p { 
+    position: relative;
+    color: black;
+    bottom: 4px;
+}
+
+form input { 
+    border-color:  blueviolet;
+    cursor: pointer;
+}
+
+p {
+    color: black;
+}
+
+
+

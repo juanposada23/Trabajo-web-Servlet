@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>AlCubo</servlet-name>
+        <servlet-class>com.mycompany.trabajoweb.AlCubo</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Hipotenusa</servlet-name>
+        <servlet-class>com.mycompany.trabajoweb.Hipotenusa</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SumaNumeros</servlet-name>
+        <servlet-class>com.mycompany.trabajoweb.SumaNumeros</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ContadorVisita</servlet-name>
+        <servlet-class>com.mycompany.trabajoweb.ContadorVisita</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AlCubo</servlet-name>
+        <url-pattern>/AlCubo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Hipotenusa</servlet-name>
+        <url-pattern>/Hipotenusa</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SumaNumeros</servlet-name>
+        <url-pattern>/SumaNumeros</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ContadorVisita</servlet-name>
+        <url-pattern>/ContadorVisita</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
